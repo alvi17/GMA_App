@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#739940"
+    >
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#8CBF4D">
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <Button
+                   android:layout_width="40dp"
+                   android:layout_height="wrap_content"
+                   android:text=""
+                   android:textColor="#650205"
+                   android:id="@+id/master_main_menu_button5"
+                   android:layout_gravity="center_horizontal|left"
+                   android:layout_marginLeft="5dp"
+                   android:drawableLeft="@drawable/left_arrow"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:background="@drawable/button_back_new"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your Master Numbers"
+            android:id="@+id/textView13"
+            android:textColor="#F2E60D"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|top" />
+
+               <Button
+                   android:layout_width="40dp"
+                   android:layout_height="wrap_content"
+                   android:text="Info"
+                   android:textAllCaps="false"
+                   android:id="@+id/master_next_button6"
+                   android:background="@drawable/button_back_new"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginTop="10dp"
+                   android:textColor="#650205"
+                   android:paddingLeft="5dp"
+                   android:layout_marginBottom="10dp"
+                   android:layout_gravity="center_horizontal|right" />
+
+           </FrameLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#c7c1c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4DB4A6"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Select Your Birthday"
+            android:textColor="#650205"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_gravity="center_horizontal|top" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/select_birthday"
+            android:text="MM DD YYYY "
+            android:textColor="#650205"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:background="@drawable/textview_border_new"
+            android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4DB4A6"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Your Master Number(s) In your Birthday Are:"
+            android:id="@+id/textView16"
+            android:textColor="#650205"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="More Info And Options"
+            android:id="@+id/master_number_textView"
+            android:textColor="#650205"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:background="@drawable/textview_border_new"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView_calculate_chakra"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/calculate_chkras"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#739940"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8CBF4D">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Acknowledgements"
+            android:textColor="#650205"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+
+                android:textAllCaps="false"
+                android:textColor="#650205"
+                android:background="@drawable/button_back_new"
+                android:id="@+id/ack_main_button5"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/left_arrow"
+                android:paddingRight="5dp"
+                android:layout_gravity="left|bottom" />
+        </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/dolphin2">
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ackScroll"
+            android:background="#F2E699">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#001"
+                    android:padding="16dp"
+                    android:text="Acknowledgements:\n\nTo my mom, your unconditional love and support has meant the World to me. To my soul family thank you for all your love and support. To my tech team a BIG thank you for helping make this app possible. I so appreciate your support as this app will allow me to work with all those who would like me to assist them with their ascension.
+"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#001"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/ack" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#001"
+                    android:padding="16dp"
+                    android:text="\n\n\n\n\n" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E699">
+    <LinearLayout
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Master Number Information"
+        android:padding="16dp"
+        android:textColor="#F2E60D"
+        android:gravity="center"
+        android:background="#8CBF4D"
+        android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+
+            android:textAllCaps="false"
+            android:textColor="#650205"
+            android:background="@drawable/button_back_new"
+            android:drawableLeft="@drawable/left_arrow"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/master_info_back_button5"
+            android:layout_gravity="center_horizontal|left"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#c7c1c0"
+        android:layout_gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/master_scrollView"
+        android:layout_gravity="center_horizontal"
+
+        android:padding="16dp"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="GRANDMA CHANDRA’S MASTER NUMBERS\n"
+            android:textColor="#001"
+            android:textAllCaps="true"
+             />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Grandma Chandra says that all those with master numbers in their birthdates are “in her group”.  She has come to awaken us to our ascension and the planet’s.  Her sessions and tools allow us to increase our vibratory rate bringing us further on our path.  Remember the master numbers do not have to be side by side, for example, 3/28/2003.  This person has a 22 and a 33 in their birth date.  \n"
+                android:textColor="#001"
+                android:textAllCaps="false"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="If the Master Numbers are not immediately apparent when looking at your birth date, you may try adding them in a single line to see if they add up to a 22, 33, 44 etc.  Also you can add numbers within your birthdate ie. 8/2/1950.  Add 8+2+1=11\n"
+                android:textColor="#001"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Another way to locate your Master Numbers is to look at your Social Security Number, your address, your phone number, your license plate. Remember that you subconsciously chose these numbers.\n\nWhat are yours?\n"
+                android:textColor="#001"
+                android:textAllCaps="false"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/master_number1"
+            android:textColor="#001"
+            android:textAllCaps="true"
+
+            android:text="11 SHOWS THE CONNECTION BETWEEN ALL THAT WAS, IS OR WILL BE, AS BROTHERS AND SISTERS. GIFTS: PROTECTION, RIGHT USE OF WILL AND HARMONY.\n"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number2"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="22 THE BUILDER, THE SQUARE, THE REALIZATION OF GOD SELF IN ALL. GIFTS: REWARDS AND BLESSINGS.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number3"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="33 THE ABILITY TO MANIFEST. GIFTS: GENTLENESS AND PURITY.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number4"
+                android:textColor="#001"
+                android:textAllCaps="true"
+
+                android:text="44  EVOLUTION AND REVOLUTION OF SELF ON ALL LEVELS. GIFTS: SOVREIGNITY OVER SELF, ELEVATION AND RIGHT USE OF POWER.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number5"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="55 THE ABILITY TO GAIN KNOWLEDGE EASILY. GIFTS: MARRIAGE, HAPPINESS AND CONNECTION TO THE STAR BEINGS.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number6"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="66 IMPLEMENTATION OF THE DIVINE IN PERSONAL EXISTENCE, APPLICATION OF ORGANIZATION TO LIFE. GIFTS: ATTAINMENT OF HIGHEST VISION AND COMPLETION OF LIFE PATH.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number7"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="77 THE COMPLETION OF EVERYTHING IN ALL DIMENSIONS. GIFTS: RELAXATION AND FREEDOM ON THE PATH.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number8"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="88 INFINITY: UNLIMITED UNDERSTANDING COUPLED WITH COMPASSION AND MERCY. GIFTS: PROTECTION AND HIGHEST CONSCIOUSNESS.\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/master_number9"
+                android:textColor="#001"
+                android:textAllCaps="true"
+                android:text="99 SEEING THE TRUE PATH THROUGH THE SIMULTANEOUS ENFOLDMENT OF THE PAST, PRESENT AND FUTURE. GIFTS: JOY AND REST\n"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#739940"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CBF4D"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/left_arrow"
+            android:background="@drawable/button_back_new"
+            android:textColor="#001"
+            android:layout_gravity="left"
+            android:id="@+id/termback_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agreement"
+            android:textColor="#001"
+            android:textAllCaps="false"
+            android:background="@drawable/button_back_new"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#942">
+
+    </View>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/scroll_terms"
+        android:background="@drawable/colorer_dialog_shape"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#001"
+        android:padding="16dp"
+        android:id="@+id/term_conditiontextView"
+        android:text="Terms and condition"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#14594D"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:padding="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="left"
+            android:textColor="#001"
+            android:textAllCaps="false"
+            android:background="@drawable/button_back"
+            android:id="@+id/acceptbutton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:layout_gravity="right"
+            android:padding="16dp"
+            android:layout_marginRight="32dp"
+            android:textColor="#001"
+            android:textAllCaps="false"
+            android:background="@drawable/button_back"
+            android:id="@+id/rejectbutton" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#739940"
+    >
+    <LinearLayout
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main Menu"
+        android:padding="5dp"
+        android:id="@+id/textView14"
+        android:textColor="#F2E60D"
+        android:background="#8CBF4D"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  "
+        android:padding="10dp"
+        android:background="#739940"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/mainlistView"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#14594D">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Daily Reminder "
+            android:textColor="#4BBBA3"
+            android:layout_gravity="left"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:id="@+id/deailyRemindertextView" />
+
+            <ToggleButton
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="New ToggleButton"
+                android:background="@drawable/toggle_selector"
+                android:id="@+id/dailytoggleButton"
+                android:textOff=""
+                android:textOn=""
+                android:textColor="#650205"
+                android:gravity="center"
+                android:checked="true"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

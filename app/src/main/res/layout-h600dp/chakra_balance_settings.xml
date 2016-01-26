@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#739940"
+    android:layout_height="fill_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:background="#8CBF4D">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/charka_settings_back"
+                    android:background="@drawable/button_back_new"
+                    android:drawableLeft="@drawable/left_arrow"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="left|center_vertical" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Chakra Balancing Settings"
+                android:id="@+id/textView5"
+                android:textColor="#650205"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal" />
+            </FrameLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#50000011"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/balancechakras">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#1A594D">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Sound "
+                        android:textColor="#4DBFA6"
+                        android:id="@+id/sound_on_off_textView7"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left|center_vertical" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+
+                        android:id="@+id/soundtoggleButton"
+                        android:checked="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/toggle_selector"
+                        android:textColor="#650205"
+                        android:layout_gravity="right|center_vertical" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/chakra_settings_frame"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+               >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#4DBFA4"
+                >
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4DBFA4"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Select Time     "
+                    android:textColor="#1A594D"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:gravity="center"
+                    />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/chakratimeSpinner"
+                    android:layout_weight=".3"
+                    android:drawSelectorOnTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:prompt="@string/spinner_promt"
+                    android:background="@drawable/textview_border_new"
+                    >
+                </Spinner>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Select Chakras"
+                        android:textColor="#1A594D"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/select_chakra_button"
+                        android:layout_gravity="center|center_horizontal"
+                        android:gravity="center"
+
+                        />
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:id="@+id/chakraSpinner"
+                        android:layout_weight=".3"
+                        android:layout_marginLeft="5dp"
+                        android:drawSelectorOnTop="true"
+                        android:prompt="@string/spinner_promt"
+                        android:background="@drawable/textview_border_new"
+                        >
+                    </Spinner>
+
+                </LinearLayout>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Begin"
+                    android:id="@+id/protocolbutton"
+                    android:textAllCaps="false"
+                    android:textColor="#4DBFA6"
+                    android:padding="20dp"
+                    android:background="#1A594D"
+                    android:gravity="right"
+                    android:layout_gravity="center_horizontal|bottom|right" />
+
+            </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>

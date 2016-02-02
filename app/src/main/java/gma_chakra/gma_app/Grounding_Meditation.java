@@ -1,13 +1,16 @@
 package gma_chakra.gma_app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.PowerManager;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -34,11 +37,17 @@ public class Grounding_Meditation extends Activity{
     Button mainMenu;
     int w,h;
     float density;
+    PowerManager.WakeLock wakeLock;
     @Override
     protected void onCreate(Bundle savedInstanceState){
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grounding_meditation);
+
+     //   PowerManager powerManager = (PowerManager)this.getSystemService(Context.POWER_SERVICE);
+       // wakeLock = powerManager.newWakeLock(PowerManager.FLAG_KEEP_SCREEN_ON, "My Lock");
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         LinearLayout l1=(LinearLayout)findViewById(R.id.grounding_ll);
         LinearLayout.LayoutParams parms=(LinearLayout.LayoutParams)l1.getLayoutParams();
@@ -171,10 +180,14 @@ public class Grounding_Meditation extends Activity{
         {
             mediaPlayer.stop();
         }
-
+       // wakeLock.release();
     }
 
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+      //  wakeLock.acquire();
+    }
 
     @Override
     public void onBackPressed() {

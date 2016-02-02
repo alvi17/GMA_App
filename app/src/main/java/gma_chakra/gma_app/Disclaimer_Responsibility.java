@@ -73,4 +73,11 @@ public class Disclaimer_Responsibility extends Activity implements View.OnClickL
         }
 
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(Disclaimer_Responsibility.this,MainMenuClass.class);
+        startActivity(intent);
+        finish();
+    }
 }

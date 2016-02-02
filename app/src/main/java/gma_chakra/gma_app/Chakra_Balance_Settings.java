@@ -77,7 +77,7 @@ public class Chakra_Balance_Settings extends Activity{
             public void onClick(View v) {
                 Intent intent=new Intent(Chakra_Balance_Settings.this,MainMenuClass.class);
                 startActivity(intent);
-                finish();
+                 finish();
             }
         });
 
@@ -143,20 +143,20 @@ public class Chakra_Balance_Settings extends Activity{
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 } else if (chakra_id == 2) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_Details.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                    //finish();
 
                 } else if (chakra_id == 3) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_2.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                    //finish();
                 } else if (chakra_id == 4) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_3.class);
                     intent.putExtra("Position", chakra_id);
@@ -167,31 +167,31 @@ public class Chakra_Balance_Settings extends Activity{
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 } else if (chakra_id == 6) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_5.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 } else if (chakra_id == 7) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_6.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 } else if (chakra_id == 8) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_7.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 } else if (chakra_id == 9) {
                     intent = new Intent(Chakra_Balance_Settings.this, Crystal_details_8.class);
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
                 }
                 else if(chakra_id==10)
                 {
@@ -199,7 +199,7 @@ public class Chakra_Balance_Settings extends Activity{
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                   // finish();
 
                 }
                 else
@@ -208,7 +208,7 @@ public class Chakra_Balance_Settings extends Activity{
                     intent.putExtra("Position", chakra_id);
                     intent.putExtra("Time",time_vlaue);
                     startActivity(intent);
-                    finish();
+                  //  finish();
                 }
 
             }
@@ -230,5 +230,12 @@ public class Chakra_Balance_Settings extends Activity{
         });
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(Chakra_Balance_Settings.this,MainMenuClass.class);
+        startActivity(intent);
+        finish();
     }
 }

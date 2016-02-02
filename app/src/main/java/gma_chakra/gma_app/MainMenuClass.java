@@ -2,9 +2,11 @@ package gma_chakra.gma_app;
 
 import android.app.Activity;
 import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -31,6 +33,7 @@ public class MainMenuClass extends Activity{
     Button exit;
     TextView textView;
     ToggleButton dailyReminder;
+    int i=0;
     private ScheduleClient scheduleClient;
     int daily_reminder=1;
     int w,h;
@@ -197,4 +200,25 @@ public class MainMenuClass extends Activity{
         return builder.build();
     }
 
+
+    @Override
+    public void onBackPressed() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Exit");
+        builder.setTitle("Do you really want to exit?");
+        builder.setPositiveButton("Exit", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                i = 1;
+                finish();
+            }
+        });
+
+        builder.setNegativeButton("Cancel",null);
+        AlertDialog alert = builder.create();
+        alert.show();
+
+
+    }
 }

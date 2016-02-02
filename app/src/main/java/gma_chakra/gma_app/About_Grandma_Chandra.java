@@ -60,4 +60,11 @@ public class About_Grandma_Chandra extends Activity{
     }
 
 
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(About_Grandma_Chandra.this,MainMenuClass.class);
+        startActivity(intent);
+        finish();
+    }
 }

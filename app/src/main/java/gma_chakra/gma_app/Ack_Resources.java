@@ -43,4 +43,10 @@ public class Ack_Resources extends Activity{
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(Ack_Resources.this,MainMenuClass.class);
+        startActivity(intent);
+        finish();
+    }
 }

@@ -25,7 +25,7 @@ public class Chakra_Balance extends Activity{
             public void onClick(View v) {
                 intent=new Intent(Chakra_Balance.this,Chakra_Balance_Settings.class);
                 startActivity(intent);
-                finish();
+              //  finish();
             }
         });
 
@@ -34,7 +34,7 @@ public class Chakra_Balance extends Activity{
             public void onClick(View v) {
                 intent=new Intent(Chakra_Balance.this,MainMenuClass.class);
                 startActivity(intent);
-                finish();
+              //  finish();
             }
         });
 

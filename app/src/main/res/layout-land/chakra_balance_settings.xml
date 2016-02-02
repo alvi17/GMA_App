@@ -4,7 +4,7 @@
     android:background="#739940"
     android:layout_height="fill_parent">
 <FrameLayout
-    android:layout_width="700dp"
+    android:layout_width="600dp"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
 

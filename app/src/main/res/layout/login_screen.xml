@@ -70,8 +70,8 @@
         android:layout_alignParentEnd="true" />
 
     <ImageView
-        android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
         android:id="@+id/imageView5"
         android:src="@drawable/gma_about"
         android:layout_below="@+id/editText2"
@@ -84,7 +84,7 @@
         android:background="@drawable/button_back"
         android:text="Log In"
         android:id="@+id/loginbutton"
-        android:layout_margin="16dp"
+        android:layout_margin="10dp"
         android:layout_below="@+id/imageView5"
         android:textColor="#B001"
         android:layout_centerHorizontal="true" />

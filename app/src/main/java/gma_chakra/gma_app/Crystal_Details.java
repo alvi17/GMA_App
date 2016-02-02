@@ -15,6 +15,7 @@ import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -64,7 +65,7 @@ public class Crystal_Details extends Activity implements View.OnClickListener{
         });
 
 
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         id=getIntent().getIntExtra("Position", 0);
         sharedpreference=getSharedPreferences(MyPreference, Context.MODE_PRIVATE);
@@ -168,7 +169,7 @@ public class Crystal_Details extends Activity implements View.OnClickListener{
                             i.putExtra("Position", id);
                             startActivity(i);
                             // close this activity
-                            finish();
+                          //  finish();
                         }
                     }
                 };
@@ -196,7 +197,7 @@ public class Crystal_Details extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_Details.this,Crystal_details_2.class);
                 startActivity(intent);
-                finish();
+                //finish();
                 break;
             case R.id.back_button1:
              //   id=(id+8)%9;
@@ -207,7 +208,7 @@ public class Crystal_Details extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_Details.this,Chakra_Balance_Settings.class);
                 startActivity(intent);
-                finish();
+               // finish();
                 break;
             case R.id.main_menubutton1:
                 if(sound_on_off==1) {

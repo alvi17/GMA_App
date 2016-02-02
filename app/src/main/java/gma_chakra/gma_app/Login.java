@@ -14,9 +14,9 @@ import android.widget.Toast;
  * Created by Alvi17 on 10/15/2015.
  */
 public class Login extends Activity implements View.OnClickListener{
-    public static final String Login="Login";
-    public static final String Username="username";
-    public static final String Password="password";
+    public static final String Login="Login1";
+    public static final String Username="username1";
+    public static final String Password="password1";
     public static final String id_="id";
     Button login;
     EditText username,password;
@@ -43,6 +43,7 @@ public class Login extends Activity implements View.OnClickListener{
         {
             pass=sharedpreference.getString(Password,"");
         }
+
         username=(EditText)findViewById(R.id.editText);
         password=(EditText)findViewById(R.id.editText2);
 

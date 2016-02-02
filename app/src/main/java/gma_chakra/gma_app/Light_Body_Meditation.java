@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -49,7 +50,7 @@ public class Light_Body_Meditation extends Activity{
         parms.height=dMetrics.heightPixels/2+65;
        // l1.setLayoutParams(parms);
 
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         seekbar=(SeekBar)findViewById(R.id.light_seekBar);
         start=(TextView)findViewById(R.id.startAudio_light);
         end=(TextView)findViewById(R.id.end_audio_light_textView);

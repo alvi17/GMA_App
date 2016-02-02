@@ -14,6 +14,7 @@ import android.os.CountDownTimer;
 import android.os.Handler;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -65,7 +66,7 @@ public class Crystal_details_2 extends Activity implements View.OnClickListener{
             }
         });
 
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         id=getIntent().getIntExtra("Position", 0);
 
         sharedpreference=getSharedPreferences(MyPreference, Context.MODE_PRIVATE);
@@ -128,7 +129,7 @@ public class Crystal_details_2 extends Activity implements View.OnClickListener{
             mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.setVolume(1, 1);
             mediaPlayer.setLooping(true);
-                mediaPlayer.start();
+            mediaPlayer.start();
             int t=0;
             if(time!=4)
             {
@@ -167,7 +168,7 @@ public class Crystal_details_2 extends Activity implements View.OnClickListener{
                             i.putExtra("Position", id);
                             startActivity(i);
                             // close this activity
-                            finish();
+                          //  finish();
                         }
                     }
                 };
@@ -192,7 +193,7 @@ public class Crystal_details_2 extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_details_2.this,Crystal_details_3.class);
                 startActivity(intent);
-                finish();
+               // finish();
                 break;
             case R.id.back_button2:
                 id=(id+7)%8;
@@ -203,7 +204,7 @@ public class Crystal_details_2 extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_details_2.this,Crystal_Details.class);
                 startActivity(intent);
-                finish();
+               // finish();
                 break;
             case R.id.main_menubutton2:
                 if(sound_on_off==1) {

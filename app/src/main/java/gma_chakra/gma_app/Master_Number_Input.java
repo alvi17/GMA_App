@@ -337,4 +337,11 @@ public class Master_Number_Input extends Activity{
         }
         return returnList;
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(Master_Number_Input.this,MainMenuClass.class);
+        startActivity(intent);
+        finish();
+    }
 }

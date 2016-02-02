@@ -14,6 +14,7 @@ import android.os.CountDownTimer;
 import android.os.Handler;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -63,7 +64,7 @@ public class Crystal_details_8 extends Activity implements View.OnClickListener{
 
             }
         });
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         if(sharedpreference.contains(Sound))
         {
             sound_on_off = sharedpreference.getInt(Sound,0);
@@ -155,7 +156,7 @@ public class Crystal_details_8 extends Activity implements View.OnClickListener{
                             i.putExtra("Position", id);
                             startActivity(i);
                             // close this activity
-                            finish();
+                         //   finish();
                         }
                     }
                 };
@@ -183,7 +184,7 @@ public class Crystal_details_8 extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_details_8.this,Crystal_Details.class);
                 startActivity(intent);
-                finish();
+               // finish();
                 break;
             case R.id.back_button8:
                 id=(id+7)%8;
@@ -194,7 +195,7 @@ public class Crystal_details_8 extends Activity implements View.OnClickListener{
                 }
                 intent=new Intent(Crystal_details_8.this,Crystal_details_7.class);
                 startActivity(intent);
-                finish();
+               // finish();
                 break;
             case R.id.main_menubutton8:
                 if(sound_on_off==1) {

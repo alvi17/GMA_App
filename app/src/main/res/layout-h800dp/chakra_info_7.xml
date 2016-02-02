@@ -116,7 +116,7 @@
                     android:paddingTop="20dp"
                     android:layout_margin="20dp"
                     android:id="@+id/ck2_second"
-                    android:background="@drawable/chakra_crystal1"
+                    android:background="@drawable/chakra_crystal7"
                     android:layout_weight=".3">
                     <ImageView
                         android:layout_width="match_parent"

@@ -105,5 +105,13 @@ public class Master_Number_Info extends Activity{
             }
         });
 
+
+
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(Master_Number_Info.this,Master_Number_Input.class);
+        startActivity(intent);
+        finish();
     }
 }

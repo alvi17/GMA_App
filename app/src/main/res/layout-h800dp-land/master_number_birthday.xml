@@ -119,7 +119,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:text="Your Master Number(s) In your Birthday Are:"
+            android:text="Your Master Number(s) In Your Birthday Are:"
             android:id="@+id/textView16"
             android:textColor="#650205"
             android:paddingLeft="10dp"

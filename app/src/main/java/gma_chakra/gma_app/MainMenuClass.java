@@ -211,7 +211,8 @@ public class MainMenuClass extends Activity{
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 i = 1;
-                finish();
+                //finish();
+                finishAffinity();
             }
         });
 

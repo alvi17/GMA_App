@@ -119,7 +119,7 @@ public class Crystal_details_3 extends Activity implements View.OnClickListener{
         next.setOnClickListener(this);
         mainmeu.setOnClickListener(this);
         if(sound_on_off==1) {
-            mediaPlayer = MediaPlayer.create(this, R.raw.chakra3);
+            mediaPlayer = MediaPlayer.create(this, R.raw.chakra2);
             mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.setVolume(1, 1);
             mediaPlayer.setLooping(true);

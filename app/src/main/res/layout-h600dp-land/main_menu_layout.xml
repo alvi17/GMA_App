@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,16 +29,15 @@
         android:id="@+id/mainlistView"
         android:layout_gravity="center_horizontal" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
 
-        android:background="#14594D">
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="5dp">
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#14594D"
+        android:padding="5dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,21 +50,19 @@
             android:gravity="center"
             android:id="@+id/deailyRemindertextView" />
 
-            <ToggleButton
-                android:layout_width="50dp"
-                android:layout_height="30dp"
-                android:text="New ToggleButton"
-                android:background="@drawable/toggle_selector"
-                android:id="@+id/dailytoggleButton"
-                android:textOff=""
-                android:textOn=""
-                android:textColor="#650205"
-                android:gravity="center"
-                android:checked="true"
-                android:layout_marginRight="16dp"
-                android:layout_gravity="right|center_vertical" />
-        </FrameLayout>
-    </LinearLayout>
+        <ToggleButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="New ToggleButton"
+            android:background="@drawable/toggle_selector"
+            android:id="@+id/dailytoggleButton"
+            android:textOff=""
+            android:textOn=""
+            android:textColor="#650205"
+            android:gravity="center"
+            android:checked="true"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
 
-    </LinearLayout>
-</LinearLayout>
+</FrameLayout>

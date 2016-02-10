@@ -36,7 +36,7 @@ public class Chakra_Balance_Settings extends Activity{
     int w,h;
     float density;
     ImageButton img;
-    String[] time={"1 Minute","3 Minute","5 Minute","Quantum Time"};
+    String[] time={"1 Minute","2 Minute","3 Minute","Quantum Time"};
     String[] charksa={"All Chakras","Root Chakra","Sacral Chakra","Solar Plexus","Heart Chakra","Throat Chakra","Third Eye Chakra","Crown Chakra","Soul Star Chakra","All- Quantum Rotation"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {

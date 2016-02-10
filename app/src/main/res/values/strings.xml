@@ -3,32 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="ack">
-        Drunvalo Melchizidek\n 
-            www.drunvalo.net\n 
-            Music\n 
-            \n 
-            Laurie Reyon &amp; Master Cat Puddah\n 
-            Omni Dimensional Mystery School\n 
-            LaurieReyon.com\n 
-            Crystals USA\n 
-            \n 
-            Katherine Keeping\n 
-            Crystal &amp; Gemstone Entrepreneur\n 
-            www.gratitudegemoils.com\n 
-            Crystals Canada\n 
-            \n 
-            Joyce Dickerman\n 
-            Layout &amp; Prototyping\n 
-            \n 
-            Justin Dickerman-Stewart\n 
-            www.ashersart.com\n 
-            Art and Photoshop work\n 
-            \n 
-            Bryan Whyte\n 
-            www.bryanwhyte.com\n 
-            Developer\n \n
-Khobaib\nProgrammer\n\nTerri Gibbons\nAdminstration\n
+    <string name="ack">Drunvalo Melchizidek\nwww.drunvalo.net\nMusic\n\nLaurie Reyon &amp; Master Cat Puddah\nOmni Dimensional Mystery School\nLaurieReyon.com\nCrystals USA\n\nKatherine Keeping\nCrystal &amp; Gemstone Entrepreneur\nwww.gratitudegemoils.com\nCrystals Canada\n\nJoyce Dickerman\nLayout &amp; Prototyping\n\nJustin Dickerman-Stewart\nwww.ashersart.com\nArt and Photoshop work\n\nBryan Whyte\nwww.bryanwhyte.com\nDeveloper\n\nKhobaib\nProgrammer\n\nTerri Gibbons\nAdministration\n
 
     </string>
     <string-array name="sound_track">
@@ -52,7 +27,7 @@ Khobaib\nProgrammer\n\nTerri Gibbons\nAdminstration\n
 
     </string-array>
     <string name="charka1">
-        \nLocation:  Base of Spine\nGland:  Immune System, Prostate, Kidneys, Bladder\nFunction:  Survival, Grounding \nIssues:  Community, Survival, Physical\nChallenges:  Fear\nPolarity:  Masculine/Feminine\nStone/Crystals:  Ruby\nPlanet: Earth\nSolfeggio Frequency:  174 Hz</string>
+        \nLocation:  Base of Spine\nGland:  Immune System, Prostate, Kidneys, Bladder\nFunction:  Survival, Grounding \nIssues:  Community, Survival, Physical\nChallenges:  Fear\nPolarity:  Masculine/Feminine\nStone/Crystals:  Ruby\nPlanet: Earth\nSolfeggio Frequency:  396 Hz</string>
     <string-array name="chakra_title">
         <item>Root\nChakra</item>
         <item>Sacral\nChakra</item>
@@ -63,71 +38,15 @@ Khobaib\nProgrammer\n\nTerri Gibbons\nAdminstration\n
         <item>Crown\nChakra</item>
         <item>Sour Star\nChakra</item>
     </string-array>
-    <string name="chakra_2">\nLocation:  Slightly Below the Navel\n
-Gland:  Reproductive Organs, Legs\n
-Function:  Sexuality, Creativity, Pleasure \n
-Issues:  Need for Control\n
-Challenges:  Guilt\n
-Polarity:  Feminine\n
-Stone/Crystals:  Carnelian\n
-Planet:  Moon\n
-Solfeggio Frequency:  285 Hz
+    <string name="chakra_2">\nLocation:  Slightly Below the Navel\nGland: Reproductive Organs, Legs\nFunction:  Sexuality, Creativity, Pleasure \nIssues:  Need for Control\nChallenges:  Guilt\nPolarity:  Feminine\nStone/Crystals:  Carnelian\nPlanet:  Moon\nSolfeggio Frequency:  417 Hz
     </string>
-    <string name="chakra_3">\nLocation: Slightly Above the Navel\n
-Gland:Adrenal, Pancreas, Stomach, Liver\n
-Function:  Will Power, Self-Image, Boundaries\n
-Issues:  Self Esteem, Vitality\n
-Challenges:  Shame\n
-Polarity:  Masculine\n
-Stone/Crystals:  Golden Topaz\n
-Planet:  Mars\n
-Solfeggio Frequency: 396 Hz
+    <string name="chakra_3">\nLocation: Slightly Above the Navel\nGland: Adrenal, Pancreas, Stomach, Liver\nFunction:  Will Power, Self-Image, Boundaries\nIssues:  Self Esteem, Vitality\nChallenges:  Shame\nPolarity:  Masculine\nStone/Crystals:  Golden Topaz\nPlanet:  Mars\nSolfeggio Frequency: 285 Hz
     </string>
-    <string name="chakra_4">\nLocation:  Center of Chest\n
-Gland:  Thymus Gland, Heart\n
-Function:  Love\n
-Issues:  Forgiveness, Compassion, Acceptance\n
-Challenges: Grief\n
-Polarity:  Masculine/Feminine\n
-Stone/Crystals:  Emerald, Watermelon\n
-Planet: Venus\n
-Solfeggio Frequency: 417 Hz</string>
-    <string name="chakra_5">\nLocation:  Throat\n
-Gland:  Thyroid, Respiratory System\n
-Function:  Communication\n
-Issues:  Communication, Creative Expression\n
-Challenges:  Deceit\n
-Polarity:  Masculine\n
-Stone/Crystals:  Sapphire\n
-Planet: Mercury\n
-Solfeggio Frequency:  639 Hz</string>
-    <string name="chakra_6">Location:  Forehead\n
-Gland:  Pituitary, Eyes, Sinus, Lower Brain\n
-Function: Knowing,, Intuition\n
-Issues:  Intuition, Insight, Clairvoyance\n
-Challenges:  Illusion\n
-Polarity:  Feminine\n
-Stone/Crystals:  Lapis Lazuli\n
-Planet:  Jupiter\n
-Solfeggio Frequency:  741 Hz</string>
-    <string name="chakra_7">\nLocation: Top of Head\n
-Gland:  Pineal Gland, Upper Brain\n
-Function:  Divine Wisdom\n
-Issues: Intuition, Insight, Clairvoyance\n
-Challenges:  Attachment\n
-Polarity:  Masculine/Feminine\n
-Stone/Crystals: Amethyst\n
-Planet: Uranus\n
-Solfeggio Frequency:  852 Hz\n</string>
-    <string name="chakra_8">\nLocation:  6-24 Above Head\n
-Gland:  Transpersonal, Soul\n
-Function:  Ascension Enlightenment\n
-Issues:  Spiritual Connection, Purpose\n
-Challenges:  Soul\'s Mission\n
-Polarity:  ---\n
-Stone/Crystals:  Quartz\n
-Planet:  ---\n
-Solfeggio Frequency:  963 Hz\n</string>
+    <string name="chakra_4">\nLocation:  Center of Chest\nGland:  Thymus Gland, Heart\nFunction:  Love\nIssues:  Forgiveness, Compassion, Acceptance\nChallenges: Grief\nPolarity:  Masculine/Feminine\nStone/Crystals:  Emerald, Watermelon\nPlanet: Venus\nSolfeggio Frequency: 639 Hz</string>
+    <string name="chakra_5">\nLocation:  Throat\nGland:  Thyroid, Respiratory System\nFunction:  Communication\nIssues:  Communication, Creative Expression\nChallenges:  Deceit\nPolarity:  Masculine\nStone/Crystals:  Sapphire\nPlanet: Mercury\nSolfeggio Frequency:  741 Hz</string>
+    <string name="chakra_6">Location:  Forehead\nGland:  Pituitary, Eyes, Sinus, Lower Brain\nFunction: Knowing, Intuition\nIssues:  Intuition, Insight, Clairvoyance\nChallenges:  Illusion\nPolarity:  Feminine\nStone/Crystals:  Lapis Lazuli\nPlanet:  Jupiter\nSolfeggio Frequency:  852 Hz</string>
+    <string name="chakra_7">\nLocation: Top of Head\nGland:  Pineal Gland, Upper Brain\nFunction:  Divine Wisdom\nIssues: Intuition, Insight, Clairvoyance\nChallenges:  Attachment\nPolarity:  Masculine/Feminine\nStone/Crystals: Amethyst\nPlanet: Uranus\nSolfeggio Frequency:  174 Hz\n</string>
+    <string name="chakra_8">\nLocation:  6-24 Above Head\nGland:  Transpersonal, Soul\nFunction:  Ascension Enlightenment\nIssues:  Spiritual Connection, Purpose\nChallenges:  Soul\'s Mission\nPolarity:  ---\nStone/Crystals:  Quartz\nPlanet:  ---\nSolfeggio Frequency:  963 Hz\n</string>
     <string-array name="chakra_details">
         <item>Location:  Base of Spine\n
             Gland:  Immune System, Prostate, Kidneys, Bladder\n
@@ -149,7 +68,7 @@ Planet:  Moon\n
 Solfeggio Frequency:  285 Hz
 </item>
         <item>Location: Slightly Above the Navel\n
-Gland:Adrenal, Pancreas, Stomach, Liver\n
+Gland:  Adrenal, Pancreas, Stomach, Liver\n
 Function:  Will Power, Self-Image, Boundaries\n
 Issues:  Self Esteem, Vitality\n
 Challenges:  Shame\n

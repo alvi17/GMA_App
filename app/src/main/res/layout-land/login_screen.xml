@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FEC">
 
     <LinearLayout
-        android:layout_width="600dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical">
@@ -36,7 +36,7 @@
         android:layout_marginTop="10dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:layout_below="@+id/textView4"
@@ -54,7 +54,7 @@
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
@@ -74,13 +74,15 @@
         android:layout_alignParentEnd="true" />
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="140dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:id="@+id/imageView5"
         android:src="@drawable/gma_about"
         android:layout_below="@+id/editText2"
         android:alpha=".5"
         android:layout_gravity="center_horizontal" />
+
+
 
     <Button
         android:layout_width="match_parent"
@@ -94,5 +96,4 @@
         android:layout_centerHorizontal="true" />
 
     </LinearLayout>
-
-</LinearLayout>
+</ScrollView>

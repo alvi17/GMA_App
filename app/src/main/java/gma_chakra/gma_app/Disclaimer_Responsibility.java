@@ -36,7 +36,7 @@ public class Disclaimer_Responsibility extends Activity implements View.OnClickL
       //  scrollView.setLayoutParams(parms);
 
         text=(TextView)findViewById(R.id.term_conditiontextView);
-        text.setText(getResources().getString(R.string.terms_condition).replace("+",""));
+       // text.setText(getResources().getString(R.string.terms_condition).replace("+",""));
 
         accept=(Button)findViewById(R.id.acceptbutton);
         reject=(Button)findViewById(R.id.rejectbutton);

@@ -9,17 +9,19 @@ import android.os.Handler;
 
 public class MainActivity extends Activity {
 //    String s="";
-    public static final String Username="username2";
-    public static final String Password="password2";
+    public static final String Username="username5";
+    public static final String Password="password5";
     SharedPreferences sharedpreference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sharedpreference=getSharedPreferences("Login2", Context.MODE_PRIVATE);
+        sharedpreference=getSharedPreferences("Login5", Context.MODE_PRIVATE);
 
-//        Intent intent=new Intent(MainActivity.this,Login.class);
+   //     Intent i = new Intent(MainActivity.this, Ack_Resources.class);
+    //    startActivity(i);
+//        Intent intent=new Intent(MainActivity.this,MainMenuClass.class);
 //        startActivity(intent);
 
         new Handler().postDelayed(new Runnable() {

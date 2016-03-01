@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#739940">
 
     <LinearLayout
-        android:layout_width="600dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical">
@@ -43,8 +43,9 @@
         android:background="#6b6b6e"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/gma_about">
 
     </LinearLayout>
@@ -59,7 +60,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="400dp"
                 android:layout_height="wrap_content"
                 android:text="Visit Grandma Chandra's Website"
                 android:textColor="#4DBFA6"
@@ -69,9 +70,9 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="10dp"/>
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:text="E-mail Grandma Chandra"
             android:textColor="#4DBFA6"
@@ -90,4 +91,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

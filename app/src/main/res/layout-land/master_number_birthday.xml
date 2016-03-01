@@ -6,7 +6,7 @@
     >
 <FrameLayout
     android:orientation="vertical"
-    android:layout_width="600dp"
+    android:layout_width="500dp"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
 
@@ -152,8 +152,8 @@
             android:layout_gravity="center_horizontal" />
         </LinearLayout>
         <ImageView
-            android:layout_width="360dp"
-            android:layout_height="280dp"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
             android:id="@+id/imageView_calculate_chakra"
             android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"

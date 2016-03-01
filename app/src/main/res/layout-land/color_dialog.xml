@@ -2,15 +2,22 @@
 
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/dialog_layout"
     android:background="@drawable/dialog_shape">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
-        android:layout_width="450dp"
-        android:layout_height="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="300dp"
         android:id="@+id/bigImage_layout"
         android:orientation="vertical"
         android:background="@drawable/chakracrystal1">
@@ -19,7 +26,7 @@
 
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:text="Close"
         android:id="@+id/closeButton"
@@ -27,6 +34,7 @@
         android:textAllCaps="false"
         android:background="#ffebf2ff"
         />
-
+    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -62,7 +62,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#001"
-                    android:padding="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
                     android:text="Acknowledgements:\n\nTo my mom, your unconditional love and support has meant the World to me. To my soul family thank you for all your love and support. To my tech team a BIG thank you for helping make this app possible. I so appreciate your support as this app will allow me to work with all those who would like me to assist them with their ascension.
 "
                     />
@@ -70,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#001"
-                    android:paddingTop="16dp"
+                    android:paddingTop="5dp"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:text="@string/ack" />

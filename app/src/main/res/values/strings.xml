@@ -45,7 +45,7 @@
     <string name="chakra_4">\nLocation:  Center of Chest\nGland:  Thymus Gland, Heart\nFunction:  Love\nIssues:  Forgiveness, Compassion, Acceptance\nChallenges: Grief\nPolarity:  Masculine/Feminine\nStone/Crystals:  Emerald, Watermelon\nPlanet: Venus\nSolfeggio Frequency: 639 Hz</string>
     <string name="chakra_5">\nLocation:  Throat\nGland:  Thyroid, Respiratory System\nFunction:  Communication\nIssues:  Communication, Creative Expression\nChallenges:  Deceit\nPolarity:  Masculine\nStone/Crystals:  Sapphire\nPlanet: Mercury\nSolfeggio Frequency:  741 Hz</string>
     <string name="chakra_6">Location:  Forehead\nGland:  Pituitary, Eyes, Sinus, Lower Brain\nFunction: Knowing, Intuition\nIssues:  Intuition, Insight, Clairvoyance\nChallenges:  Illusion\nPolarity:  Feminine\nStone/Crystals:  Lapis Lazuli\nPlanet:  Jupiter\nSolfeggio Frequency:  852 Hz</string>
-    <string name="chakra_7">\nLocation: Top of Head\nGland:  Pineal Gland, Upper Brain\nFunction:  Divine Wisdom\nIssues: Intuition, Insight, Clairvoyance\nChallenges:  Attachment\nPolarity:  Masculine/Feminine\nStone/Crystals: Amethyst\nPlanet: Uranus\nSolfeggio Frequency:  174 Hz\n</string>
+    <string name="chakra_7">\nLocation: Top of Head\nGland:  Pineal Gland, Upper Brain\nFunction:  Divine Wisdom\nIssues: Intuition, Insight, Clairvoyance\nChallenges:  Attachment\nPolarity:  Masculine/Feminine\nStone/Crystals: Amethyst\nPlanet: Uranus\nSolfeggio Frequency:  528 Hz\n</string>
     <string name="chakra_8">\nLocation:  6-24 Above Head\nGland:  Transpersonal, Soul\nFunction:  Ascension Enlightenment\nIssues:  Spiritual Connection, Purpose\nChallenges:  Soul\'s Mission\nPolarity:  ---\nStone/Crystals:  Quartz\nPlanet:  ---\nSolfeggio Frequency:  963 Hz\n</string>
     <string-array name="chakra_details">
         <item>Location:  Base of Spine\n
@@ -136,17 +136,8 @@ Solfeggio Frequency:  963 Hz\n
     <string name="terms_condition">
         Please read carefully the terms and conditions of this end user license agreement (\'\'agreement\'\') before downloading, installing or using the software application ("app") provided by Whale I Productions LLC re: Gma App. This is a legal agreement between Whale I Productions LLC re: Gma App and you. This EULA governs your access to and use of the app.
 " +
-                "\n" +
-                "By downloading, installing or using the app you acknowledge and agree that: \n" +
-                "1.\tTHE HEALTH, FITNESS AND NUTRITIONAL INFORMATION PROVIDED ON THE APP IS FOR EDUCATIONAL PURPOSES ONLY, and the use of any such information provided in the App is solely at your own risk;\n" +
-                "2.\tYOU HEREBY WAIVE ANY AND ALL CLAIMS AGAINST WHALE I PRODUCTIONS LLC re: GMA APP ARISING OUT OF YOUR USE OF THE APP and any of the information contained thereon;\n" +
-                "3.\tthe App is licensed, not sold to you and you may use the App only as set forth in this EULA;\n" +
-                "4.\tunderstand Gma App does not collect your name, does not share or display your email address, and protects your privacy; \n" +
-                "5.\tyou acknowledge that third party terms and fees may apply to the use and operation of your mobile device in connection with your use of the App, such as your carrier\'s terms of services, and fees for phone service, data access, or messaging capabilities, and that you are solely responsible for payment of any and all such fees;\n" +
-                "6.\tas set forth in this EULA, the App is provided \"as is\";\n" +
-                "7.\tyou may request a copy of this EULA by emailing us at chandra@whaleiproductions.com; and\n" +
-                "8.\tif you are using the App on an ANDROID product, you agree to and acknowledge the \"Notice Regarding Google,\" below.\n" +
-                "IF YOU DO NOT AGREE TO BE BOUND BY ABOVE TERMS (AS DESCRIBED IN FURTHER DETAIL BELOW) YOU MAY NOT DOWNLOAD, INSTALL OR USE THE APP.\n" +
+
+        "IF YOU DO NOT AGREE TO BE BOUND BY ABOVE TERMS (AS DESCRIBED IN FURTHER DETAIL BELOW) YOU MAY NOT DOWNLOAD, INSTALL OR USE THE APP.\n" +
                 "MODIFICATION OF THE EULA. Whale I Productions LLC reserves the right to modify and/or change any of the terms and conditions of this EULA at any time and without prior notice. If Whale I Productions LLC materially modifies this EULA it will post the updated EULA in the \"Preferences\" of the App via a hyperlink or by other reasonable means now known or hereafter developed. By continuing to use the App after Whale I Productions LLC has posted a modification of this EULA, you agree to be bound by the modified EULA. If the modified EULA is not acceptable to you, your only recourse is to discontinue the use of and uninstall the App. This Agreement will also govern any software upgrades and/or updates provided by Whale I Productions LLC that upgrade and/or supplement the App, unless such upgrades and/or updates are accompanied by a separate license, in which case the terms of that separate license will apply.\n" +
                 "\n" +
                 "LIMITED LICENSE. Conditioned upon your compliance with the terms and conditions of this EULA, Whale I Productions LLC hereby grants to you a limited, revocable, non-exclusive, personal, non-sublicensable, non-transferable, non-assignable license to install and use the executable form of the App solely for your personal use on a device (whether mobile device or other) owned or controlled by you. Whale I Productions LLC reserves all rights in the App not expressly granted to you in this EULA. \n" +

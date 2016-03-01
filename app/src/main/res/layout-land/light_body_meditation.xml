@@ -6,7 +6,7 @@
 <FrameLayout
     android:orientation="vertical"
 
-    android:layout_width="600dp"
+    android:layout_width="500dp"
     android:layout_gravity="center_horizontal"
     android:layout_height="match_parent">
     <LinearLayout
@@ -55,7 +55,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="250dp"
             android:id="@+id/light_ll"
             android:orientation="vertical"
             android:background="@drawable/light_body">
